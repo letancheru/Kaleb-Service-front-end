@@ -13,7 +13,7 @@ const TeamDetailsPage = () => {
     return (
         <Fragment>
             <PageHeader
-                bgImg={import('../../assets/img/page-header.jpg')}
+                bgImg={`src/assets/img/page-header.jpg'`}
                 title={teamMember.name}
                 content={teamMember.designation}
             />

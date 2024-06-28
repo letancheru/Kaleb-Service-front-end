@@ -8,7 +8,7 @@ const TeamMember = ({id,profilePic,name,designation}) => {
             <div className="team-mem-item team-mem-item--2">
                 <figure className="member-pic">
                     <Link to={teamMemberURl}>
-                        <img src={'../../../assets/img/' + profilePic} alt={name}/>
+                        <img src={`/src/assets/img/${profilePic}`} alt={name}/>
                     </Link>
                 </figure>
                 <div className="member-info">

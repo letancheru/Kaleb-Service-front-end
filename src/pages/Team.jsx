@@ -17,7 +17,7 @@ const PageTeam = () => {
         <Fragment>
             <Header/>
             <PageHeader
-                bgImg={import('../assets/img/page-header.jpg')}
+                bgImg={`src/assets/img/page-header.jpg'`}
                 title="KNOW ABOUT BUSINEX THE ULTIMATE TEAM"
                 content="Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
             />

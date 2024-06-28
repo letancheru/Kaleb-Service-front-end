@@ -10,7 +10,7 @@ function BlogItem(props) {
                     props.thumb ? (
                         <figure className="blog-thumb">
                             <Link to={blogURL}>
-                                <img src={import('../../assets/img/' + props.thumb)} alt={props.title} />
+                                <img src={`src/assets/img/${props.thumb}`} alt={props.title} />
                             </Link>
                         </figure>
                     ) : null

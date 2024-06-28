@@ -4,7 +4,7 @@ const Experience = ({icon,designation,comment}) => {
     return (
         <div className="icon-box-item">
             <div className="icon-box__icon">
-                <img src={import('../../assets/img/' + icon)} alt={designation}/>
+                <img src={`/src/assets/img/${icon}`} alt={designation}/>
             </div>
             <div className="icon-box__info">
                 <h5>{designation}</h5>

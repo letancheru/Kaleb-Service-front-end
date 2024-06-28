@@ -5,7 +5,7 @@ function TestimonialItem(props) {
     return (
         <div className="testimonial-item testimonial-item--3">
             <div className="testimonial-thumb">
-                <img src={'../../../assets/img/' + props.authorThumb} alt="Businex"/>
+                <img src={`src/assets/img/${props.authorThumb}`} alt="Businex"/>
             </div>
 
             <div className="testimonial-txt">

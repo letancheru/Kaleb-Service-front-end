@@ -64,7 +64,7 @@ class Testimonial extends Component {
                                         <div key={testimonial.id}>
                                             <div className="testimonial-thumbnail-item">
                                                 <img
-                                                    src={'../../../assets/img/' + testimonial.authorThumb}
+                                                    src={`src/assets/img/${testimonial.authorThumb}`}
                                                     alt="Businex-Testimonial"/>
                                             </div>
                                         </div>

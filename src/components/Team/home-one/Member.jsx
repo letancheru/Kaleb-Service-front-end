@@ -9,12 +9,12 @@ function Member(props) {
                 <div className="col-sm-6 col-lg-3">
                     <div className="team-mem-item">
                         <figure className="member-pic">
-                            <Link to={`${import.meta.env.VITE_PUBLIC_URL + teamMemberURl}`}>
-                                <img src={'../../../assets/img/' + props.profilePic} alt={props.name}/>
+                            <Link to={`${teamMemberURl}`}>
+                                <img src={`/src/assets/img/${props.profilePic}`} alt={props.name}/>
                             </Link>
                         </figure>
                         <div className="member-info">
-                            <h5><Link to={`${import.meta.env.VITE_PUBLIC_URL + teamMemberURl}`} className="stretched-link">{props.name}</Link></h5>
+                            <h5><Link to={`${teamMemberURl}`} className="stretched-link">{props.name}</Link></h5>
                             <span className="designation">{props.designation}</span>
                         </div>
                     </div>
@@ -22,12 +22,12 @@ function Member(props) {
             ):(
                 <div className="team-mem-item">
                     <figure className="member-pic">
-                        <Link to={`${import.meta.env.VITE_PUBLIC_URL + teamMemberURl}`}>
-                            <img src={'../../../assets/img/' + props.profilePic} alt={props.name}/>
+                        <Link to={`${teamMemberURl}`}>
+                            <img src={`/src/assets/img/${props.profilePic}`} alt={props.name}/>
                         </Link>
                     </figure>
                     <div className="member-info">
-                        <h5><Link to={`${import.meta.env.VITE_PUBLIC_URL + teamMemberURl}`} className="stretched-link">{props.name}</Link></h5>
+                        <h5><Link to={`${teamMemberURl}`} className="stretched-link">{props.name}</Link></h5>
                         <span className="designation">{props.designation}</span>
                     </div>
                 </div>

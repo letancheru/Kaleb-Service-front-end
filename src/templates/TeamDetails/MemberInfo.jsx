@@ -6,7 +6,7 @@ const MemberInfo = ({teamMember}) => {
             <div className="row">
                 <div className="col-md-5">
                     <div className="member-pic mb-sm-35">
-                        <img src={import('../../assets/img/' + profilePic)} alt={name}/>
+                        <img src={`/src/assets/img/${profilePic}`} alt={name}/>
                     </div>
                 </div>
 

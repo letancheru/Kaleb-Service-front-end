@@ -20,7 +20,7 @@ const PageAbout = () => {
         <Fragment>
             <Header/>
             <PageHeader
-                bgImg={import('../assets/img/page-header.jpg')}
+                bgImg={`src/assets/img/page-header.jpg`}
                 title="ABOUT US"
                 content="Kaleb Services always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
             />

@@ -2,13 +2,13 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 function ServiceItem(props) {
-    const serviceURL = `/service/${props.title.split(' ').join('-').toLowerCase()}?id=${props.id}`
+    const serviceURL = `${props.title.split(' ').join('-').toLowerCase()}?id=${props.id}`
     return (
         <div className="col-sm-6 col-lg-4">
             <div className="service-item">
                 <figure className="service-thumb">
                     <Link to={`${serviceURL}`}>
-                    <img src={import('../../assets/img/' + props.thumb)} alt={props.title}/>
+                    <img src={`src/assets/img/${props.thumb}`} alt={props.title}/>
                     </Link>
 
                     <figcaption className="service-txt">

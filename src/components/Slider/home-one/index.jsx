@@ -16,23 +16,6 @@ const PrevArrow = ({ className, onClick }) => {
 };
 
 const Slider = () => {
-    const [bgImages, setBgImages] = useState({});
-
-    useEffect(() => {
-        const loadImages = async () => {
-            const images = await Promise.all(
-                SliderData.map(item => import(`../../../assets/img/${item.bg}`).then(image => ({ id: item.id, src: image.default })))
-            );
-            const imageMap = images.reduce((acc, img) => {
-                acc[img.id] = img.src;
-                return acc;
-            }, {});
-            setBgImages(imageMap);
-        };
-
-        loadImages();
-    }, []);
-
     const settings = {
         arrows: true,
         dots: false,
@@ -48,11 +31,6 @@ const Slider = () => {
             }
         ]
     };
-
-    if (Object.keys(bgImages).length !== SliderData.length) {
-        return <div>Loading...</div>; // or a spinner or placeholder
-    }
-
     return (
         <div className={'slider-area'}>
             <SlickSlider settings={settings}>
@@ -60,7 +38,7 @@ const Slider = () => {
                     SliderData.map(item => (
                         <div key={item.id}>
                             <div className="slider-item"
-                                style={{ backgroundImage: `url(${bgImages[item.id]})` }}>
+                                style={{ backgroundImage: `url(${item.bg})` }}>
                                 <div className="container">
                                     <div className="row">
                                         <div className="col-xl-7">
