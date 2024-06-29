@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 );
-serviceWorker.unregister();
+serviceWorker.register();
 
 // import React from 'react';
 // import ReactDOM from 'react-dom';
