@@ -19,7 +19,7 @@ function Footer() {
                                 </Link>
 
                                 <Text>
-                                    During the summer my wife and I got to go on an amazing road trip in Vancouver.
+                                Conducive Government policy, the growth Agree business and ongoing privatization of state farms paved a way for the flourishing of commercial farming Cooperatives and small Holder Farm Mechanization.
                                 </Text>
 
                                 <Text classes="copyright-txt">
@@ -29,13 +29,15 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div className="col-md-4 col-lg-2 ml-auto">
+                    <div className="col-md-4 col-lg-2 ml-auto" style={{ textDecoration:'none' }}>
                         <Widget title="Information">
-                            <List classes="widget-list">
+                            <List classes="widget-list" >
                                 <LI><Link to={"/about"}>Our company</Link></LI>
                                 <LI><Link to={"/contact"}>Contact us</Link></LI>
                                 <LI><Link to={"/services"}>Our services</Link></LI>
-                                <LI><Link to={"/"}>Careers</Link></LI>
+                                <LI><Link to={"/services"}>Our Products</Link></LI>
+                                <LI><Link to={"/services"}>Our Teams</Link></LI>
+                                
                             </List>
                         </Widget>
                     </div>
@@ -45,7 +47,7 @@ function Footer() {
                             <List classes="widget-list">
                                 <LI><Link to="https://facebook.com/hasthemes/" target={'_blank'}>Facebook</Link></LI>
                                 <LI><Link to="https://twitter.com/hasthemes/" target={'_blank'}>Twitter</Link></LI>
-                                <LI><Link to="https://dribbble.com/hastech/" target={'_blank'}>Dribbble</Link></LI>
+                                <LI><Link to="https://dribbble.com/hastech/" target={'_blank'}>Linkedin</Link></LI>
                                 <LI><Link to="https://www.instagram.com/" target={'_blank'}>Instagram</Link></LI>
                             </List>
                         </Widget>
@@ -54,9 +56,12 @@ function Footer() {
                     <div className="col-md-4 col-lg-3">
                         <Widget title="Contact Us">
                             <address>
-                                Kaliti, Addis Ababa, Ethiopia <br/>
-                                https://example.com <br/>
-                                (+68) 120034509
+                            Akaki-Kality Sub-city, Kebele-10 , House No. 9999/1 Debreziet Road, Kaleb Building Addis Ababa Ethiopia <br/>
+                                https:kalebservice.com <br/>
+                                tesfayegm@kalebservice.com<br/>
+                                (+251-011) 439 36 74<br/>
+                                 (+251-011) 439 36 53<br/>
+                                 
                             </address>
                         </Widget>
                     </div>

@@ -32,7 +32,7 @@ const Slider = () => {
         ]
     };
     return (
-        <div className={'slider-area'}>
+        <div  className={'slider-area' }>
             <SlickSlider settings={settings}>
                 {
                     SliderData.map(item => (

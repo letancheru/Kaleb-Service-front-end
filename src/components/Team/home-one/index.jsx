@@ -40,10 +40,9 @@ function Team() {
             <div className="container-fluid">
                 <div className="row align-items-center">
                     <div className="col-lg-4">
-                        <SectionTitle variant="light" title="Creative Team"
-                               heading="We have great <br />creative team"
-                               text="<strong>Kaleb Services</strong> always try to provide the best Business Solutions for Clients to grow up their
-                                      Business sharp and smoothly. We voluptatem voluptas aspernatur aut odit fugit, quia consequuur magni dolores eos qui ratione."
+                        <SectionTitle variant="light" title="Our Dedicated Team"
+                               heading="Innovators, Supporters, and <br /> Partners in Farming Success"
+                               text="<strong>Kaleb Services</strong> Agricultural Excellence Team: Innovators, Supporters, and Partners in Farming Success.Emphasizes the team's commitment to achieving excellence in the agricultural sector, striving for the highest standards in products and services."
                         />
                     </div>
 

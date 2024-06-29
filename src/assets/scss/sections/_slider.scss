@@ -4,10 +4,12 @@
 .slider {
   &-item {
     background-size: cover;
+    backdrop-filter: blur(10px);
     background-position: center center;
     display: flex !important;
     align-items: center;
-    height: 800px;
+    height: 650px;
+    
    
 
     @media #{$md-device} {
@@ -20,8 +22,12 @@
   }
 
   &-content {
+    font-family: serif;
+    transform: translate(10%);
+    background: rgba(0, 0, 0, 0.5);
     font-size: 16px;
     font-weight: 500;
+    color:white;
     margin: auto;
 
     @media #{$md-device,$lg-device} {
@@ -35,6 +41,8 @@
     h2 {
       font-size: 60px;
       text-transform: uppercase;
+      font-family:sans-serif;
+      
 
       @media #{$md-device,$lg-device} {
         font-size: 45px;

@@ -25,7 +25,7 @@ class Header extends Component{
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-5 col-lg-2">
-                            <Logo/>
+                            <h1>Kaleb Service</h1>
                         </div>
 
                         <div className="col-lg-7 d-none d-lg-block">
@@ -34,7 +34,7 @@ class Header extends Component{
                             </div>
                         </div>
 
-                        <div className="col-7 col-lg-3">
+                        <div className="col-7 col-lg-3" style={{ justifyItems:'end' }}>
                             <HeaderConfig logRegContentShow={this.props.logRegContentShow} mobileMenuShow={this.props.mobileMenuShow} />
                         </div>
                     </div>
