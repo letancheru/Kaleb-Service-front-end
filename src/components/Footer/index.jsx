@@ -23,7 +23,8 @@ function Footer() {
                                 </Text>
 
                                 <Text classes="copyright-txt">
-                                    &copy; {new Date().getFullYear()} Kaleb Services Ltd. All Rights Reserved.
+                                    &copy; {new Date().getFullYear()} Kaleb Services Ltd. All Rights Reserved. <br />
+                                    Powered by Keradion Designs.
                                 </Text>
                             </div>
                         </div>
@@ -45,10 +46,8 @@ function Footer() {
                     <div className="col-md-4 col-lg-2 ml-auto">
                         <Widget title="Social Links">
                             <List classes="widget-list">
-                                <LI><Link to="https://facebook.com/hasthemes/" target={'_blank'}>Facebook</Link></LI>
-                                <LI><Link to="https://twitter.com/hasthemes/" target={'_blank'}>Twitter</Link></LI>
-                                <LI><Link to="https://dribbble.com/hastech/" target={'_blank'}>Linkedin</Link></LI>
-                                <LI><Link to="https://www.instagram.com/" target={'_blank'}>Instagram</Link></LI>
+                                <LI><Link to="https://www.facebook.com/KalebService/" target={'_blank'}>Facebook</Link></LI>
+                                <LI><Link to="https://t.me/kalebservice?&text=kalebservice" target={'_blank'}>Telegram</Link></LI>
                             </List>
                         </Widget>
                     </div>

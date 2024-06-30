@@ -35,7 +35,7 @@ function BrandLogo(props) {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div style={{ textAlign:'center', marginBottom:'50px', fontSize:'22px'}}> OUR PARTNER</div>
+                        <div style={{ textAlign:'center', marginBottom:'50px', fontSize:'22px'}}> OUR PARTNERS</div>
                         <SlickSlider settings={settings}>
                             {
                                 BrandLogos.map(logo => (

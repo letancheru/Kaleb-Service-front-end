@@ -32,9 +32,10 @@ class FunfactItem extends Component {
                                 </div>
                             )}
                         </CountUp>
+                        <h6 className="counter-txt">{this.props.counterText}</h6>
+
                     </h2>
 
-                    <h6 className="counter-txt">{this.props.counterText}</h6>
                 </div>
             </div>
         );

@@ -7,12 +7,12 @@ const TeamMember = ({id,profilePic,name,designation}) => {
         <div className="col-sm-6 col-lg-3">
             <div className="team-mem-item team-mem-item--2">
                 <figure className="member-pic">
-                    <Link to={teamMemberURl}>
+                    {/* <Link to={teamMemberURl}> */}
                         <img src={`/src/assets/img/${profilePic}`} alt={name}/>
-                    </Link>
+                    {/* </Link> */}
                 </figure>
                 <div className="member-info">
-                    <h5><Link to={teamMemberURl}>{name}</Link></h5>
+                    {/* <h5><Link to={teamMemberURl}>{name}</Link></h5> */}
                     <span className="designation">{designation}</span>
                 </div>
             </div>
