@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import Logo from './Logo'
 import Navbar from './Navbar/Navbar'
 import HeaderConfig from './HeaderConfig'
 
@@ -23,9 +22,9 @@ class Header extends Component{
         return (
             <header className="header-area">
                 <div className="container">
-                    <div className="row align-items-center">
+                    <div className='align-items-center' style={{ display:'flex', alignItems:'center',justifyContent:'space-between' }}>
                         <div className="col-5 col-lg-2">
-                            <h1>Kaleb Service</h1>
+                            <h1 style={{ fontFamily:'sans-serif', fontSize:'55px', lineHeight:'0.8', color:'#00a3cc', fontWeight:'bold' }}>Kaleb <span style={{ lineBreak:'50px' }}>Service</span></h1>
                         </div>
 
                         <div className="col-lg-7 d-none d-lg-block">

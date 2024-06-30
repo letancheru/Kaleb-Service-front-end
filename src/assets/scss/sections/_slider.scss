@@ -8,7 +8,7 @@
     background-position: center center;
     display: flex !important;
     align-items: center;
-    height: 650px;
+    height: 750px;
     
    
 
@@ -22,34 +22,45 @@
   }
 
   &-content {
-    font-family: serif;
-    transform: translate(10%);
-    background: rgba(0, 0, 0, 0.5);
-    font-size: 16px;
+    
+    transform: translate(25%);
+    background: rgba(0, 0, 0, 0.08);
+    font-size: 19px;
+    text-align: center;
     font-weight: 500;
     color:white;
     margin: auto;
-
-    @media #{$md-device,$lg-device} {
+    @media #{$lg-device}{
+      max-width: 700px;
+    }
+    @media #{$md-device} {
       max-width: 575px;
+      font-size: 14px;
     }
 
     @media #{$sm-device} {
-      max-width: 350px;
+      max-width: 300px;
+      font-size: 12px;
     }
 
     h2 {
-      font-size: 60px;
+      width: 900px;
+      font-size: 40px;
       text-transform: uppercase;
-      font-family:sans-serif;
       
+      @media #{$md-device}{
+        max-width: 500px
+      }
 
-      @media #{$md-device,$lg-device} {
-        font-size: 45px;
+      @media #{$lg-device} {
+        font-size: 20px;
+        max-width: 700px;
       }
 
       @media #{$sm-device} {
-        font-size: 30px;
+        max-width: 300px;
+        font-size: 15px;
+        
 
         br {
           display: block;
@@ -60,11 +71,15 @@
     p {
       @media #{$xl-device} {
         max-width: 575px;
+        text-align: center;
+        
       }
     }
 
     .btn {
+      color: aqua;
       margin-top: 30px;
+      align-items: center;
 
       @media #{$sm-device} {
         margin-top: 20px;
@@ -73,9 +88,7 @@
 
     &--2 {
       h2 {
-        @media #{$xl-device,$lg-device} {
-          font-size: 55px;
-        }
+       
       }
     }
 

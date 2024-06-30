@@ -7,7 +7,7 @@ const About = ({title,heading,content,thumb}) => {
         <div className="page-about-wrapper sm-top">
             <div className="container">
                 <div className="row align-items-lg-center">
-                    <div className="col-md-6 col-lg-7 order-1">
+                    <div className="col-md-6 col-lg-7 order-1" style={{ textAlign:'justify' }}>
                         <Content classes="about-content ml-0">
                             <h6>{title}</h6>
                             <h2 dangerouslySetInnerHTML={{__html: heading}}/>

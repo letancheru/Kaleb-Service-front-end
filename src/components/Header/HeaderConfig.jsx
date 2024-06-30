@@ -14,7 +14,7 @@ function HeaderConfig(props) {
 
     return (
         <div className="header-action mt-lg-3 text-right">
-            <a href="tel:+2510114393653" className="tel-no">+251-011 439 3653</a>
+            <a style={{ textDecoration:'none' }} href="tel:+2510114393653" className="tel-no">+251-011 439 3653</a>
             
         </div>
     );

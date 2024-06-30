@@ -3,11 +3,11 @@
 =============================*/
 
 .main-menu {
-  align-content: center;
-  justify-content: flex-end;
+ justify-content: center;
+ margin-right: 30px;
 
   & > li {
-    margin-right: 30px;
+    margin-right: 50px;
     position: relative;
 
     &:last-child {
@@ -22,11 +22,18 @@
       letter-spacing: 1.62px;
       text-transform: uppercase;
       position: relative;
-
+  
       @media #{$lg-device} {
         font-size: 14px;
       }
+     
     }
+
+    a:Hover{
+      text-decoration: underline;
+      
+    }
+    
 
     // Sub Menu
     &.has-submenu {
@@ -39,6 +46,7 @@
         color: $white;
         content: '\f107';
         font-size: 16px;
+        
         line-height: 1;
         font-family: $fa-icon;
         position: absolute;
@@ -48,7 +56,7 @@
 
       // Sub Menu
       .submenu-nav {
-        text-decoration: none;
+        
         background-color: $white;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         position: absolute;
@@ -56,7 +64,7 @@
         top: 100%;
         transform: translateY(50px);
         transition: 0.4s;
-        opacity: 0;
+        opacity: 0.5;
         visibility: hidden;
         pointer-events: none;
         min-width: 250px;
@@ -82,6 +90,7 @@
             color: $paragraph;
             display: block;
             font-size: 15px;
+            text-decoration: none;
             letter-spacing: inherit;
             text-transform: capitalize;
             padding: 10px 20px;

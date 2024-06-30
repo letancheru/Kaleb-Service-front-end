@@ -2,8 +2,8 @@ import React from 'react';
 
 const PageHeader = ({bgImg,title,content}) => {
     return (
-        <div className="page-header-area bg-img" style={{backgroundImage: `url(${bgImg})`}}>
-            <div className="container">
+        <div className="page-header-area bg-img" style={{backgroundImage: `url(../src/assets/img/02.jpg)`}}>
+            <div className="">
                 <div className="row">
                     <div className="col-lg-10 col-xl-8 m-auto text-center">
                         <div className="page-header-content-inner">
