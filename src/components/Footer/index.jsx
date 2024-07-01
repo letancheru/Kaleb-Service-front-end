@@ -24,7 +24,7 @@ function Footer() {
 
                                 <Text classes="copyright-txt">
                                     &copy; {new Date().getFullYear()} Kaleb Services Ltd. All Rights Reserved. <br />
-                                    Powered by Keradion Designs.
+                                    Powered by Keradion Technology Solutions.
                                 </Text>
                             </div>
                         </div>
