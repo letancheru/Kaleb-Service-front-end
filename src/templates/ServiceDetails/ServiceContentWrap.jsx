@@ -20,7 +20,7 @@ const ServiceContentWrap = ({service,totalService,prevService,nextService}) => {
                         {
                             service.previewImages.map((previewImg, indx) => (
                                 <div key={indx}>
-                                    <img src={import('../../assets/img/' + previewImg)} alt={service.title} />
+                                    <img src={`src/assets/img/${previewImg}`} alt={service.title} />
                                 </div>
                             ))
                         }
