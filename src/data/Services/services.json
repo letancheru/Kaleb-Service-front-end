@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Creative Ideas",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/01.jpg",
+    "title": "Machinery",
+    "shortDesc": "Importing products and sales business for combine harvesters, tractors, sugar cane haulage tractors, ploughs, harrows, planters, seed drills, sprayers, levelers, slashers, fertilizer applicators, power harrows, bellers and maize heeder for combiners.",
+    "thumb": "service/01.jpeg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
@@ -17,8 +17,8 @@
   },
   {
     "id": 2,
-    "title": "Digital Solutions",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
+    "title": "Export",
+    "shortDesc": "Kaleb service farmers’ house plc is also engaged in the export sector. the company is an authorized intermediary trading member of ECX as a result the export has now become one of its core business Activity. So far the company Kaleb Service farmer’s house plc is exporting Sesame and coffee.",
     "thumb": "service/02.jpg",
     "previewImages": [
       "service/details/01.jpg",
@@ -33,8 +33,8 @@
   },
   {
     "id": 3,
-    "title": "Brand & Communication",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
+    "title": "Kaleb Operators and Mechanics Training Institute",
+    "shortDesc": "Kaleb Operators and Mechanics Training Institute located at Shashemene, 250 km from Addis Ababa. The training Institute established September 22, 1916 on 15,476m2 area with different Facilities for (Offices, class rooms, computer lab).",
     "thumb": "service/03.jpg",
     "previewImages": [
       "service/details/01.jpg",
@@ -49,8 +49,8 @@
   },
   {
     "id": 4,
-    "title": "Creative Strategy",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
+    "title": "Irrigation Facilities",
+    "shortDesc": "Kaleb in the business of providing gravity drip system for small farmers facilitates te following advantage.Easily to install a do it yourself technology. Portable system. Affordable drip system for small farmers. All items are supplied in one box, hence easy to carry.",
     "thumb": "service/04.jpg",
     "previewImages": [
       "service/details/01.jpg",
@@ -65,8 +65,8 @@
   },
   {
     "id": 5,
-    "title": "Marketing Policy",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
+    "title": "Manufacturing and assembly",
+    "shortDesc": "New line of business to manufacture easy to use farm implements for small holder farmers. Located in the western part of the country Shashemene, Ethiopia. Small holder farm equipments include; Multi crop Thresher Machine (Wheat, Barley, Teff) Maize Sheller Machine (Engine and PTO shaft dozen), Abollo Multicrop Thresher Machine, Teff Mini Planter, and Wheat seed drill or Mini Planters.",
     "thumb": "service/05.jpg",
     "previewImages": [
       "service/details/01.jpg",
@@ -81,8 +81,8 @@
   },
   {
     "id": 6,
-    "title": "Campaign & PR",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
+    "title": "Organic Chemicals",
+    "shortDesc": "In trading business to provide total crop health solutions by importing “STANES” products for sustainable crop cultivation, which can be achieved through, Nutrition Management, Water Management(Green Miracle),Disease and pest Management (Nimbicidine)",
     "thumb": "service/06.jpg",
     "previewImages": [
       "service/details/03.jpg",

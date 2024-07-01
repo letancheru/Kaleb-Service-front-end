@@ -44,9 +44,9 @@ class Testimonial extends Component {
                     <div className="row d-lg-none">
                         <div className="col-12 text-center">
                             <SectionTitle
-                                title="TESTIMONIALS"
-                                heading="Don’t Believe us, <br/> Check Client Word"
-                                tagline="More over <span class='tag-no'>1900+</span><strong>customer</strong>"
+                                title="What Sets Kaleb Services Apart"
+                                heading="Our specialized training center equips operators with the skills needed to maximize the efficiency and safety of our machinery, complemented by our exceptional customer support team."
+                                tagline="Offering a wide spectrum of products from machinery and implements to training and support services, we meet diverse agricultural needs under one roof."
                             />
                         </div>
                     </div>
@@ -65,7 +65,7 @@ class Testimonial extends Component {
                                             <div className="testimonial-thumbnail-item">
                                                 <img
                                                     src={`src/assets/img/${testimonial.authorThumb}`}
-                                                    alt="Businex-Testimonial"/>
+                                                    alt="Kaleb Service"/>
                                             </div>
                                         </div>
                                     ))
@@ -77,9 +77,9 @@ class Testimonial extends Component {
                             <div className="testimonial-area-right">
                                 <div className="d-none d-lg-block">
                                     <SectionTitle
-                                        title="TESTIMONIALS"
-                                        heading="Don’t Believe us, <br/> Check Client Word"
-                                        tagline="More over <span class='tag-no'>1900+</span><strong>customer</strong>"
+                                        title="Innovative Empowerment"
+                                        heading="What Sets Kaleb Services Apart"
+                                        tagline="We stand behind the quality and reliability of our products, ensuring they perform optimally and provide long-term value to our clients."
                                     />
                                 </div>
 

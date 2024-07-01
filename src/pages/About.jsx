@@ -22,23 +22,17 @@ const PageAbout = () => {
             <PageHeader
                 bgImg={`src/assets/img/page-header.jpg`}
                 title="ABOUT US"
-                content="Kaleb Services always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+                content="At Kaleb Services, we are dedicated to delivering top-tier agricultural solutions that empower our clients to achieve rapid and seamless growth."
             />
-            <About
-                title={'Our Team'}
-                heading="Meet Our <br/> Expert Member"
-                thumb={ServiceThumb}
-                content="<b>Kaleb Services</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-            />
+            <About/>
             <Services/>
             <Features classes={'sm-top'}/>
             <Testimonial/>
-            <Team/>
+            
             <BrandLogo/>
             <Funfact classes="sp-top"/>
             <CallToAction/>
             <Footer/>
-            <LoginRegister/>
             <MobileMenu/>
         </Fragment>
     );

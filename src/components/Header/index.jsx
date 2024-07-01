@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
-import Logo from './Logo'
 import Navbar from './Navbar/Navbar'
 import HeaderConfig from './HeaderConfig'
+import { Link } from 'react-router-dom';
 
 class Header extends Component{
 
@@ -23,9 +23,9 @@ class Header extends Component{
         return (
             <header className="header-area">
                 <div className="container">
-                    <div className="row align-items-center">
+                    <div className='align-items-center' style={{ display:'flex', alignItems:'center',justifyContent:'space-between' }}>
                         <div className="col-5 col-lg-2">
-                            <Logo/>
+                            <Link to={'/'} style={{ textDecoration:'none', fontFamily:'sans-serif', fontSize:'25px', lineHeight:'0.8', color:'#00a3cc', fontWeight:'bold' }}>Kaleb Services</Link>
                         </div>
 
                         <div className="col-lg-7 d-none d-lg-block">
@@ -34,7 +34,7 @@ class Header extends Component{
                             </div>
                         </div>
 
-                        <div className="col-7 col-lg-3">
+                        <div className="col-7 col-lg-3" style={{ justifyItems:'end' }}>
                             <HeaderConfig logRegContentShow={this.props.logRegContentShow} mobileMenuShow={this.props.mobileMenuShow} />
                         </div>
                     </div>

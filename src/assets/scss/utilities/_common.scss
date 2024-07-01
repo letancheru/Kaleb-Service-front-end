@@ -60,12 +60,12 @@ Background Image
 Container
 -----------------------*/
 .container {
-  @media screen and (min-width: 1200px) {
-    max-width: 1200px;
+  @media screen and (min-width: 900px) {
+    max-width: 100%;
   }
 
   &-fluid {
-    padding: 0 100px;
+    padding: 0 px;
 
     @media #{$lg-device} {
       padding: 0 15px;
@@ -215,7 +215,7 @@ Scroll Top Button
   color: $white;
   cursor: pointer;
   @include font-size(25px);
-  display: block;
+  display: flex;
   text-align: center;
   line-height: 60px;
   position: fixed;

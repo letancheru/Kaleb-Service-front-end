@@ -2,7 +2,7 @@
 --. Footer Style CSS
 ===========================*/
 .footer-area,.call-top-action-wrap {
-  background-color: $offWhite;
+  background-color: #ffe4cd;
 }
 
 .widget-item {
@@ -10,7 +10,7 @@
 
   .widget-title {
     color: $brandColor;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 600;
     line-height: 1;
     margin-top: -1px;
@@ -36,6 +36,7 @@
       color: $paragraph;
       font-weight: 500;
       transition: 0.2s;
+      text-decoration: none;
 
       &:hover {
         color: $brandColor;
@@ -56,6 +57,8 @@
 .copyright-txt {
   margin-top: 25px;
   font-weight: 500;
+  text-align: center;
+  justify-items: center;
 
   @media #{$sm-device} {
     margin-top: 15px;

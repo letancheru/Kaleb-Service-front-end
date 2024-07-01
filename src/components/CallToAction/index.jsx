@@ -14,7 +14,7 @@ function CallToAction() {
                             <h2>{CallToActionData.title}</h2>
                             <p>{parse(CallToActionData.text)}</p>
                         </div>
-                        <div className="col-md-4 col-lg-6 text-md-right mt-sm-25">
+                        <div style={{ justifyContent:'end', textDecoration:'none' }} className="col-md-4 col-lg-6 text-md-right mt-sm-25 ">
                             <Link to={CallToActionData.btnLink} className="btn-outline">{CallToActionData.btnText}</Link>
                         </div>
                     </div>

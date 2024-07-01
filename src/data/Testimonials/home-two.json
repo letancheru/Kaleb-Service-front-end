@@ -1,23 +1,20 @@
 [
   {
     "id": 1,
-    "quote": "Very much happy with provide the best Business Solutions for Clients to grow up their Business very sharply.",
-    "author": "David Loyed",
-    "authorThumb": "testimonial/h-2-t-01.png",
-    "designation": "CTO, Aflex Group"
+    "quote": "Collaborations with world-renowned brands like CLAAS, BALDAN, and JACTO provide our clients with access to the latest and most reliable agricultural machinery and implements.",
+    "authorThumb": "testimonial/02.jpg"
+  
   },
   {
     "id": 2,
-    "quote": "Very much happy with provide the best Business Solutions for Clients to grow up their Business very sharply.",
-    "author": "Alex Tuntuni",
-    "authorThumb": "testimonial/h-2-t-02.png",
-    "designation": "Co-Founder, Tuntuni Group"
+    "quote": "Offering a wide spectrum of products from machinery and implements to training and support services, we meet diverse agricultural needs under one roof.",
+    "authorThumb": "testimonial/01.jpg"
+  
   },
   {
     "id": 3,
-    "quote": "Very much happy with provide the best Business Solutions for Clients to grow up their Business very sharply.",
-    "author": "John Fault",
-    "authorThumb": "testimonial/h-2-t-03.png",
-    "designation": "COO, Mafia Group"
+    "quote": "Our specialized training center equips operators with the skills needed to maximize the efficiency and safety of our machinery, complemented by our exceptional customer support team.",
+    "authorThumb": "testimonial/03.jpg"
+    
   }
 ]

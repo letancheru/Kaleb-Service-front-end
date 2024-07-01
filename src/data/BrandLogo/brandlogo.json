@@ -1,27 +1,38 @@
 [
   {
     "id": 1,
-    "logoSrc": "brand-logo/01.png",
-    "URL": "/"
+    "logoSrc": "brand-logo/01.jpg",
+    "URL": "/",
+    "name":"CLAAS"
   },
   {
     "id": 2,
-    "logoSrc": "brand-logo/02.png",
+    "logoSrc": "brand-logo/02.jpg",
     "URL": "/"
   },
   {
     "id": 3,
-    "logoSrc": "brand-logo/03.png",
+    "logoSrc": "brand-logo/03.jpg",
     "URL": "/"
   },
   {
     "id": 4,
-    "logoSrc": "brand-logo/04.png",
+    "logoSrc": "brand-logo/04.jpg",
     "URL": "/"
   },
   {
     "id": 5,
-    "logoSrc": "brand-logo/05.png",
+    "logoSrc": "brand-logo/05.jpg",
+    "URL": "/"
+  },
+  {
+    "id": 5,
+    "logoSrc": "brand-logo/06.jpg",
+    "URL": "/"
+  },
+   {
+    "id": 5,
+    "logoSrc": "brand-logo/07.jpg",
     "URL": "/"
   }
 ]

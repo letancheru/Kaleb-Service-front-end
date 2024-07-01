@@ -4,7 +4,7 @@ const BlogDetailsContentWrapper = ({post,sidebar}) => {
     return (
         <article className="blog-post-details">
             <figure className="blog-post-thumb">
-                <img src={import('../../assets/img/' + post.thumb)} alt={post.title} />
+                <img src={`src/assets/img/${post.thumb}`} alt={post.title} />
             </figure>
 
             <div className="blog-post-txt-wrap">
@@ -14,7 +14,7 @@ const BlogDetailsContentWrapper = ({post,sidebar}) => {
                             <div className="col-md-3 col-lg-2 order-1 order-md-0">
                                 <div className="author-info mt-sm-40">
                                     <div className="author-thumb">
-                                        <img src={import('../../assets/img/' + post.author.proPic)} alt={post.author.name} />
+                                        <img src={`src/assets/img/${post.author.proPic}`} alt={post.author.name} />
                                     </div>
                                     <div className="author-txt">
                                         <h5>{post.author.name} <span className="designation">{post.author.designation}</span></h5>

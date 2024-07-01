@@ -19,18 +19,18 @@ const PageService = () => {
         <Fragment>
             <Header/>
             <PageHeader
-                bgImg={'../assets/img/page-header.jpg'}
+                bgImg={'../src/assets/img/02.jpg'}
                 title="OUR SERVICES"
                 content="Kaleb Services always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
             />
             <PageAbout
                 title={'Our Services'}
-                heading="Provide best <br/> Business Solutions"
+                heading="Comprehensive Agricultural Solutions"
                 thumb={ServiceThumb}
-                content="<b>Kaleb Services</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+                content="At Kaleb Services, we deliver a wide range of agricultural and business solutions tailored to meet the needs of our clients. From providing top-quality agricultural machinery and advanced irrigation systems to exporting premium coffee and sesame, we cover all aspects of agricultural operations. Our Kaleb Operators and Mechanics Training Institute equips individuals with the skills to efficiently operate and maintain machinery, while our manufacturing and assembly services ensure custom solutions for agricultural equipment. We also offer eco-friendly organic chemicals to support sustainable farming practices. Committed to excellence, innovation, and customer support, we empower farmers to achieve seamless and sustainable growth."
             />
             <Services classes="sm-top"/>
-            <PricingTable/>
+            
             <Testimonial/>
             <BrandLogo/>
             <Funfact classes="sp-top"/>

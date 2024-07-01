@@ -5,7 +5,7 @@ const IconBox = ({icon,title,text}) => {
         <div className="col-md-6">
             <div className="icon-box-item">
                 <div className="icon-box__icon">
-                    <img src={import('../../assets/img/' + icon)} alt={title} />
+                    <img src={`src/assets/img/${icon}`} alt={title} />
                 </div>
                 <div className="icon-box__info">
                     <h5>{title}</h5>

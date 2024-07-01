@@ -19,10 +19,6 @@ function BlogItem(props) {
                     <h2 className="h5"><Link to={blogURL}>{props.title}</Link></h2>
                     <p>{props.excerpt}</p>
 
-                    <div className="blog-meta">
-                        <Link to={blogURL}>By: {props.postBy}</Link>
-                        <Link to={blogURL}>{props.date}</Link>
-                    </div>
                 </div>
             </div>
         </div>

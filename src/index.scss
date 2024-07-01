@@ -12,3 +12,9 @@ Google Fonts
 // Not Necessary for project
 // It's for demo page
 @import './assets/scss/demo-page.scss';
+#root {
+   overflow-x: hidden !important;
+   font-family: "Roboto", sans-serif !important;
+   font-size: 20px;
+
+  }

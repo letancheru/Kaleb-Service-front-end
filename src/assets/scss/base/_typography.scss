@@ -99,7 +99,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-weight: 400;
+  font-weight: 500;
   color: $headingColor;
   line-height: 1.2;
 }
@@ -149,6 +149,8 @@ ul {
 
   li {
     list-style: none;
+    text-decoration: none;
+
   }
 }
 

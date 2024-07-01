@@ -2,19 +2,19 @@
   {
     "id": 1,
     "title": "Creative Team",
-    "text": "We have creative team, they always ready to help you.",
+    "text": "A highly trained team providing after-sales support, ensuring equipment runs smoothly.",
     "imgSrc": "feature/01.png"
   },
   {
     "id": 2,
     "title": "Best Service",
-    "text": "We have creative team, they always ready to help you.",
+    "text": "Technical Expertise: Skilled technicians for maintenance and repairs, ensuring minimal downtime for clients.",
     "imgSrc": "feature/02.png"
   },
   {
     "id": 3,
-    "title": "Online Support",
-    "text": "We have creative team, they always ready to help you.",
+    "title": "Export Excellence",
+    "text": "Agricultural Commodities: Exporting high-quality sesame, pulses, and coffee, contributing to the global supply chain.",
     "imgSrc": "feature/03.png"
   }
 ]

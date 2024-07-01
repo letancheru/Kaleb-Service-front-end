@@ -33,14 +33,14 @@ const App = () => {
                     <Route exact path= '/home-two' element={<HomeTwo />} />
                     <Route exact path= '/services' element={<Service />} />
                     <Route path='/service/:serviceID' element={<ServiceDetails />} />
-                    <Route exact path="/blog-grid-right-sidebar" element={<BlogGridRightSidebar />} />
+                    {/* <Route exact path="/blog-grid-right-sidebar" element={<BlogGridRightSidebar />} />
                     <Route exact path= "/blog-grid-left-sidebar" element={<BlogGridLeftSidebar />} />
                     <Route exact path= "/blog-grid-without-sidebar" element={<BlogGridWithoutSidebar />} />
                     <Route exact path= "/blog-list-left-sidebar" element={<BlogListLeftSidebar />} />
                     <Route exact path= "/blog-list-right-sidebar" element={<BlogListRightSidebar />} />
-                    <Route path= "/blog/:blogID" element={<BlogDetailsPage />} />
+                    <Route path= "/blog/:blogID" element={<BlogDetailsPage />} /> */}
                     <Route exact path= "/team" element={<Team />} />
-                    <Route path= "/team-member/:teamID" element={<TeamDetails />} />
+                    {/* <Route path= "/team-member/:teamID" element={<TeamDetails />} /> */}
                     <Route exact path= "/about" element={<About />} />
                     <Route exact path= "/contact" element={<Contact />} />
                     <Route path="*" element={<Error404 />} />
